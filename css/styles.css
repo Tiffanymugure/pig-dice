@@ -2,6 +2,36 @@ body {
     position: relative;
     font-style: normal;
     font-size: 30px;
+
+}
+div {
+  /* width: 320px; */
+  padding: 10px;
+  margin: 0;
+}
+.begin{
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+
+}
+.start{
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: bolder;
+  font-family:sans-serif;
+  font-stretch: condensed;
+}
+.note{
+  font-size: 20px;
+  font-style: italic;
+  font-color:red;
+  text-align: center;
+}
+
+form {
+
 }
 .background {
   background: url(immgg.jpg);
