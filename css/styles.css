@@ -26,12 +26,18 @@ div {
 .note{
   font-size: 20px;
   font-style: italic;
-  font-color:red;
+  font-color:maroon;
   text-align: center;
 }
 
 form {
 
+}
+.font{
+  font-family: monospace;
+  font-size: 60px;
+  font-style: italic;
+  text-align: center;
 }
 .background {
   background: url(immgg.jpg);

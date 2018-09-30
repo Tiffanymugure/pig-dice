@@ -1,4 +1,4 @@
-//business logic
+
 var player1="";
 var player2="";
 
@@ -26,7 +26,7 @@ Player.prototype.rollone = function() {
 Player.prototype.hold = function () {
   this.totalscore += this.tempscore;
   this.tempscore = 0;
-  alert(this.playerName + ", your turn is over, pass the mouse!");
+  alert(this.playerName + ", your turn is over, pass to the next player!");
 }
 
 
@@ -48,7 +48,7 @@ var clearValues = function(){
   $(".player2Name").val("");
 }
 
-(document).ready(function() {
+$(document).ready function() 
 
   $("button#start").click(function(event){
     player1 = new Player(true);
