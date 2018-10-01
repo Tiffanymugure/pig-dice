@@ -1,0 +1,91 @@
+body {
+    position: relative;
+    font-style: normal;
+    font-size: 30px;
+
+}
+div {
+  /* width: 320px; */
+  padding: 10px;
+  margin: 0;
+}
+.begin{
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+
+}
+.start{
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: bolder;
+  font-family:sans-serif;
+  font-stretch: condensed;
+}
+.note{
+  font-size: 20px;
+  font-style: italic;
+  font-color:maroon;
+  text-align: center;
+}
+
+form {
+
+}
+.font{
+  font-family: monospace;
+  font-size: 60px;
+  font-style: italic;
+  text-align: center;
+}
+.background {
+  background: url(immgg.jpg);
+background-repeat: no-repeat;
+background-size: auto;
+}
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.column {
+    display: flex;
+    align-items: center;
+}
+
+#status {
+    position: absolute;
+    top: 5rem;
+		left: 50%;
+		transform: translateX(-50%);
+    min-width: 400px;
+    margin: 0;
+		text-align: center;
+}
+
+.dice {
+    width: 32px;
+    float: left;
+    background-color: lightcoral;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.dice-roll {
+    cursor: pointer;
+    text-transform: capitalize;
+}
